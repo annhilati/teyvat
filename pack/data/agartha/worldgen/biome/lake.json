@@ -23,33 +23,11 @@
         ],
         "music_volume": 1.0,
         "sky_color": 4554824,
-        "water_color": 3116849,
+        "water_color": 3099023,
         "water_fog_color": 2965018
     },
     "features": [
-        [
-            "agartha:rainforest_pond"
-        ],
-        [
-            "agartha:trees/rainforest",
-            "agartha:grass_patch"
-        ],
-        [
-            "agartha:trees/rainforest",
-            "agartha:grass_patch"
-        ],
-        [
-            "agartha:trees/rainforest",
-            "agartha:grass_patch"
-        ],
-        [
-            "agartha:trees/rainforest",
-            "agartha:grass_patch"
-        ],
-        [
-            "agartha:trees/rainforest",
-            "agartha:grass_patch"
-        ]
+        []
     ],
     "carvers": [
         "minecraft:cave",
