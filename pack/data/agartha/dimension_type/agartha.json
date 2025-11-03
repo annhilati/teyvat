@@ -20,5 +20,6 @@
     "natural": true,
     "piglin_safe": false,
     "respawn_anchor_works": true,
-    "ultrawarm": false
+    "ultrawarm": false,
+    "fixed_time": 10000
 }

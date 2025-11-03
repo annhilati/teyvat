@@ -4,9 +4,11 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
     ],
-    "downfall": 0.6,
+    "has_precipitation": false,
+    "downfall": 1.7,
+    "temperature": 1.7,
     "effects": {
-        "fog_color": 12638463,
+        "fog_color": 12648407,
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2.0,
@@ -25,16 +27,18 @@
             }
         ],
         "music_volume": 1.0,
-        "sky_color": 7842047,
-        "water_color": 4159204,
-        "water_fog_color": 329011
+        "sky_color": 4554824,
+        "water_color": 3116849,
+        "water_fog_color": 2965018
     },
     "features": [
-
+        [
+            "agartha:pond"
+        ],
+        [
+            "agartha:trees/rainforest"
+        ]
     ],
-    "has_precipitation": false,
     "spawn_costs": {},
-    "spawners": {
-    },
-    "temperature": -0.5
+    "spawners": {}
 }

@@ -161,7 +161,8 @@
                         "type": "minecraft:biome",
                         "biome_is": [
                             "agartha:plains",
-                            "agartha:forest"
+                            "agartha:forest",
+                            "agartha:rainforest"
                         ]
                     },
                     "then_run": {
