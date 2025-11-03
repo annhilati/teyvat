@@ -1,9 +1,12 @@
 {
-    "feature": "agartha:trees/rainforest",
+    "feature": "agartha:coarse_dirt_vein",
     "placement": [
         {
-            "type": "minecraft:count",
-            "count": 256
+            "type": "minecraft:rarity_filter",
+            "chance": 6
+        },
+        {
+            "type": "minecraft:in_square"
         },
         {
             "type": "minecraft:height_range",
@@ -17,14 +20,6 @@
                 }
             }
         },
-        {
-            "type": "minecraft:in_square"
-        },
-        {
-            "type": "minecraft:surface_water_depth_filter",
-            "max_water_depth": 1
-        },
-
         {
             "type": "minecraft:biome"
         }

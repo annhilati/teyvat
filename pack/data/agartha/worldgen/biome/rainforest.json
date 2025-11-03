@@ -37,6 +37,9 @@
         ],
         [
             "agartha:trees/rainforest"
+        ],
+        [
+            "agartha:coarse_dirt_vein"
         ]
     ],
     "spawn_costs": {},
