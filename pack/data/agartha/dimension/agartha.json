@@ -1,0 +1,36 @@
+{
+    "type": "agartha:agartha",
+    "generator": {
+        "biome_source": {
+            "biomes": [
+                {
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": -1,
+                        "weirdness": -1,
+                        "depth": 0,
+                        "offset": 0
+                    },
+                    "biome": "agartha:plains"
+                },
+                {
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0.2,
+                        "continentalness": 0.2,
+                        "erosion": -0.5,
+                        "weirdness": -1,
+                        "depth": 0,
+                        "offset": 0
+                    },
+                    "biome": "agartha:forest"
+                }
+            ],
+            "type": "minecraft:multi_noise"
+        },
+        "settings": "agartha:agartha",
+        "type": "minecraft:noise"
+    }
+}
