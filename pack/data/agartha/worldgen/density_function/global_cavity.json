@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:range_choice",
+    "input": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -64,
+        "to_y": 320,
+        "from_value": 1.0,
+        "to_value": -1.0
+    },
+    "min_inclusive": -0.3,
+    "max_exclusive": 0.33,
+    "when_in_range": {
+        "type": "minecraft:constant",
+        "argument": -1.0
+    },
+    "when_out_of_range": {
+        "type": "minecraft:constant",
+        "argument": 1.0
+    }
+}

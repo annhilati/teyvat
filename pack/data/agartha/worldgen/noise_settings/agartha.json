@@ -18,11 +18,7 @@
         "size_vertical": 4
     },
     "noise_router": {
-        "final_density": {
-            "type": "minecraft:max",
-            "argument1": "agartha:final_destiny",
-            "argument2": "agartha:vanilla_final_destiny"
-        },
+        "final_density": "agartha:vanilla_final_destiny",
         "temperature": {
             "type": "minecraft:shifted_noise",
             "noise": "minecraft:temperature",
