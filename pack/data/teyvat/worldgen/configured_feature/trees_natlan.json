@@ -1,7 +1,7 @@
 {
     "type": "minecraft:random_selector",
     "config": {
-        "default": "minecraft:acacia",
+        "default": "teyvat:flammabomb",
         "features": [
             {
                 "chance": 0.1,
@@ -9,7 +9,7 @@
             },
             {
                 "chance": 0.3,
-                "feature": "teyvat:natlan/patch_bush"
+                "feature": "teyvat:natlan/patch_flammabomb"
             }
         ]
     }

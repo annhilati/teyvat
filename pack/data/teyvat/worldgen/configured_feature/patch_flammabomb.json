@@ -1,7 +1,7 @@
 {
     "type": "minecraft:random_patch",
     "config": {
-        "feature": "teyvat:bush",
+        "feature": "teyvat:flammabomb",
         "xz_spread": 15,
         "tries": 18
     }
