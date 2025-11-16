@@ -1,0 +1,42 @@
+{
+    "has_precipitation": false,
+    "temperature": 0.9,
+    "downfall": 1.0,
+    "effects": {
+        "fog_color": 12648407,
+        "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+        },
+        "music": [
+            {
+                "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.overworld.jungle"
+                },
+                "weight": 1
+            }
+        ],
+        "music_volume": 1.0,
+        "sky_color": 2197942,
+        "water_color": 1528458,
+        "water_fog_color": 8439542
+    },
+    "features": [
+        [
+            "teyvat:trees_natlan"
+        ]
+    ],
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+    ],
+    "spawn_costs": {},
+    "spawners": {
+    }
+}
