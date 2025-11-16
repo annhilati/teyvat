@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "feature": "teyvat:bush",
+        "xz_spread": 15,
+        "tries": 18
+    }
+}

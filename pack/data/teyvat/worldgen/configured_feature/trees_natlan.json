@@ -8,8 +8,8 @@
                 "feature": "teyvat:baobab"
             },
             {
-                "chance": 0.8,
-                "feature": "teyvat:bush_group"
+                "chance": 0.3,
+                "feature": "teyvat:natlan/patch_bush"
             }
         ]
     }

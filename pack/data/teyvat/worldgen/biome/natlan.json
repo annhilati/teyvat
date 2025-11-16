@@ -23,12 +23,13 @@
         ],
         "music_volume": 1.0,
         "sky_color": 2197942,
-        "water_color": 1528458,
+        "water_color": 24246,
         "water_fog_color": 8439542
     },
     "features": [
         [
-            "teyvat:trees_natlan"
+            "teyvat:natlan/trees",
+            "minecraft:patch_grass_normal"
         ]
     ],
     "carvers": [
