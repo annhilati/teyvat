@@ -1,5 +1,5 @@
 {
-    "has_precipitation": false,
+    "has_precipitation": true,
     "temperature": 0.9,
     "downfall": 0.5,
     "effects": {
@@ -8,29 +8,18 @@
         "water_color": 2587061,
         "water_fog_color": 8439542,
         "grass_color": 10477903,
-        "mood_sound": {
-            "block_search_extent": 8,
-            "offset": 2.0,
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000
-        },
-        "music": [
-            {
-                "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.jungle"
-                },
-                "weight": 1
-            }
-        ],
+        "dry_foliage_color": 12370251,
+        "music": [],
         "music_volume": 1.0
     },
     "features": [
         [
+            "teyvat:natlan/rock"
+        ],
+        [
             "teyvat:natlan/trees",
             "teyvat:natlan/patch_torchflower",
+            "teyvat:natlan/patch_wildflower",
             "minecraft:patch_grass_normal"
         ]
     ],
@@ -44,18 +33,6 @@
         "creature": [
             {
                 "type": "minecraft:sheep",
-                "maxCount": 4,
-                "minCount": 4,
-                "weight": 12
-            },
-            {
-                "type": "minecraft:pig",
-                "maxCount": 4,
-                "minCount": 4,
-                "weight": 10
-            },
-            {
-                "type": "minecraft:chicken",
                 "maxCount": 4,
                 "minCount": 4,
                 "weight": 10
@@ -73,10 +50,10 @@
                 "weight": 5
             },
             {
-                "type": "minecraft:donkey",
-                "maxCount": 3,
+                "type": "minecraft:sniffer",
+                "maxCount": 5,
                 "minCount": 1,
-                "weight": 1
+                "weight": 8
             }
         ]
     }

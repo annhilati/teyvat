@@ -155,13 +155,13 @@
                                 "type": "minecraft:stone_depth",
                                 "add_surface_depth": false,
                                 "offset": 1,
-                                "secondary_depth_range": 2,
+                                "secondary_depth_range": 0,
                                 "surface_type": "floor"
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "Name": "minecraft:packed_mud"
                                 }
                             }
                         },

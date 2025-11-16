@@ -11,7 +11,7 @@
         "foliage_placer": {
             "type": "minecraft:pine_foliage_placer",
             "height": 4,
-            "offset": 0,
+            "offset": 1,
             "radius": 3
         },
         "foliage_provider": {
