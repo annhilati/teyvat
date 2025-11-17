@@ -2,5 +2,5 @@ data_pack:
   load:
     - pack
 output: .
-pipeline:
-  - beet.contrib.minify_json
+# require:
+  # - plugin

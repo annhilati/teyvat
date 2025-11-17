@@ -6,10 +6,12 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         ".beet_cache": true,
-        ".vscode": true
+        ".vscode": true,
+        "__pycache__": true
     },
     "hide-files.files": [
         ".beet_cache",
-        ".vscode"
+        ".vscode",
+        "__pycache__"
     ]
 }

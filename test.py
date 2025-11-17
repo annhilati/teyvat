@@ -1,7 +1,16 @@
-from beet import Context, JsonFileBase
-from typing import Any
+import json5
 
-# def beet_defaul(ctx: Context):
-#     for i, t in enumerate(ctx.data.extend_namespace):
-#         if t is JsonFileBase:
-#             ctx.data.extend_namespace[i] =
+jsonc_data = """
+{
+    // Kommentare sind erlaubt
+    name: "json5-test", // Auch hier
+    "version": 2, 
+    "config": [
+        1, 2, 3, // Trailing comma erlaubt (optional)
+    ]
+}
+"""
+
+data = json5.loads(jsonc_data)
+print(data)
+# Ausgabe: {'name': 'json5-test', 'version': 2, 'config': [1, 2, 3]}

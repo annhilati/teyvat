@@ -21,7 +21,8 @@
         "size_vertical": 4
     },
     "noise_router": {
-        "final_density": "teyvat:final_destiny",
+        "final_density": "teyvat:noise_router/final_destiny",
+        "continents": "teyvat:noise_router/continents",
         "temperature": {
             "type": "minecraft:shifted_noise",
             "noise": "minecraft:temperature",
@@ -38,15 +39,6 @@
             "shift_y": 0,
             "shift_z": "minecraft:shift_z",
             "xz_scale": 0.25,
-            "y_scale": 0
-        },
-        "continents": {
-            "type": "minecraft:shifted_noise",
-            "noise": "minecraft:continentalness",
-            "shift_x": "minecraft:shift_x",
-            "shift_y": 0,
-            "shift_z": "minecraft:shift_z",
-            "xz_scale": 1.0,
             "y_scale": 0
         },
         "erosion": {

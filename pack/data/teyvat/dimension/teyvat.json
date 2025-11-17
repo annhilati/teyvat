@@ -4,7 +4,7 @@
         "biome_source": {
             "biomes": [
                 {
-                    "biome": "teyvat:liyue",
+                    "biome": "teyvat:natlan",
                     "parameters": {
                         "temperature": [0.7, 1.5],
                         "humidity": [1.4, 1.7],
