@@ -4,11 +4,11 @@
         "default": "teyvat:flammabomb",
         "features": [
             {
-                "chance": 0.1,
-                "feature": "teyvat:baobab"
+                "chance": 0.12,
+                "feature": "teyvat:natlan/patch_baobab"
             },
             {
-                "chance": 0.3,
+                "chance": 0.35,
                 "feature": "teyvat:natlan/patch_flammabomb"
             }
         ]

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "feature": {
+            "feature": {
+                "type": "minecraft:random_selector",
+                "config": {
+                    "features": [
+                        {
+                            "feature": "teyvat:baobab_big",
+                            "chance": 0.5
+                        },
+                        {
+                            "feature": "teyvat:baobab_small",
+                            "chance": 0.5
+                        }
+                    ],
+                    "default": "teyvat:baobab_small"
+                }
+            },
+            "placement": []
+        },
+        "xz_spread": 35,
+        "tries": 65
+    }
+}

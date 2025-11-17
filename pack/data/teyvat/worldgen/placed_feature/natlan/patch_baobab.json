@@ -1,0 +1,9 @@
+{
+    "feature": "teyvat:patch_baobab",
+    "placement": [
+        {
+            "type": "rarity_filter",
+            "chance": 1
+        }
+    ]
+}

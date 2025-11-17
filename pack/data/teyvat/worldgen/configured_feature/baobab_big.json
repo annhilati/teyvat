@@ -10,14 +10,10 @@
             }
         },
         "foliage_placer": {
-            "type": "minecraft:mega_pine_foliage_placer",
-            "crown_height": {
-                "type": "minecraft:uniform",
-                "max_inclusive": 8,
-                "min_inclusive": 5
-            },
-            "offset": 0,
-            "radius": 1
+            "type": "minecraft:jungle_foliage_placer",
+            "height": 3,
+            "offset": 1,
+            "radius": 6
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
@@ -34,20 +30,20 @@
         "ignore_vines": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",
-            "limit": 1,
-            "lower_size": 1,
-            "upper_size": 2
+            "limit": 10,
+            "lower_size": 2,
+            "upper_size": 16
         },
         "trunk_placer": {
-            "type": "minecraft:giant_trunk_placer",
-            "base_height": 13,
+            "type": "minecraft:mega_jungle_trunk_placer",
+            "base_height": 20,
             "height_rand_a": 2,
-            "height_rand_b": 14
+            "height_rand_b": 4
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:acacia_log",
+                "Name": "minecraft:stripped_pale_oak_log",
                 "Properties": {
                     "axis": "y"
                 }

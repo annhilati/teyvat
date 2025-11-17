@@ -1,5 +1,5 @@
 {
-    "feature": "teyvat:baobab",
+    "feature": "teyvat:baobab_big",
     "placement": [
         {
             "type": "minecraft:block_predicate_filter",
