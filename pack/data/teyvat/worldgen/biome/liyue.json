@@ -1,0 +1,53 @@
+{
+    "has_precipitation": true,
+    "temperature": 0.9,
+    "downfall": 0.5,
+    "effects": {
+        "sky_color": 6996214,
+        "fog_color": 6733035,
+        "water_color": 5357002,
+        "water_fog_color": 8439542,
+        "grass_color": 14274868,
+        "foliage_color": 16304937,
+        "dry_foliage_color": 12370251,
+        "music": [],
+        "music_volume": 1.0
+    },
+    "features": [
+        [
+            
+        ],
+        [
+            "teyvat:liyue/trees",
+            "minecraft:patch_grass_normal"
+        ]
+    ],
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+    ],
+    "spawn_costs": {},
+    "spawners": {
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 10
+            },
+            {
+                "type": "minecraft:cow",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 8
+            },
+            {
+                "type": "minecraft:llama",
+                "maxCount": 6,
+                "minCount": 2,
+                "weight": 5
+            }
+        ]
+    }
+}
