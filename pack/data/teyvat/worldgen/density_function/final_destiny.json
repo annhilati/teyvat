@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:cube",
+    "argument": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:continentalness",
+        "xz_scale": 1,
+        "y_scale": 1
+    }
+}

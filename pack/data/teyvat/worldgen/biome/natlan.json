@@ -20,6 +20,7 @@
             "teyvat:natlan/trees",
             "teyvat:natlan/patch_torchflower",
             "teyvat:natlan/patch_wildflower",
+            "teyvat:natlan/patch_cornflower",
             "minecraft:patch_grass_normal"
         ]
     ],
@@ -44,7 +45,7 @@
                 "weight": 8
             },
             {
-                "type": "minecraft:horse",
+                "type": "minecraft:llama",
                 "maxCount": 6,
                 "minCount": 2,
                 "weight": 5
