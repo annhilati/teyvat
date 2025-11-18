@@ -1,17 +1,8 @@
 {
     "type": "minecraft:range_choice",
-    "input": {
-        "type": "clamp",
-        "input": {
-            "type": "add",
-            "argument1": "teyvat:noise/continents",
-            "argument2": 0
-        },
-        "max": 1,
-        "min": -1
-    },
+    "input": "teyvat:noise/continents",
     "max_exclusive": 1,
     "min_inclusive": 0,
     "when_in_range": 1,
-    "when_out_of_range": 0
+    "when_out_of_range": -1
 }

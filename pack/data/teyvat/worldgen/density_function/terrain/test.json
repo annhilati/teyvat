@@ -1,11 +1,11 @@
 {
     "type": "minecraft:add",
-    "argument1": "teyvat:terrain/test_height",
+    "argument1": "teyvat:continent_selector",
     "argument2": {
         "type": "minecraft:y_clamped_gradient",
         "from_y": 128,
         "to_y": 0,
-        "from_value": -1.5,
-        "to_value": 1.5
+        "from_value": -1,
+        "to_value": 1
     }
 }
