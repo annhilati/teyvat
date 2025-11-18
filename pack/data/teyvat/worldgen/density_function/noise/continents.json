@@ -1,0 +1,8 @@
+{
+    "type": "add",
+    "argument1": {
+        "type": "cache_2d",
+        "argument": "teyvat:noise/continents"
+    },
+    "argument2": -0.5
+}

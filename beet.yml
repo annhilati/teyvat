@@ -3,4 +3,6 @@ data_pack:
     - pack
 output: .
 # require:
-  # - plugin
+#   - plugin.require
+# pipeline:
+#   - plugin.pipeline

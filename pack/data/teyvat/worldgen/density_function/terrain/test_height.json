@@ -1,0 +1,10 @@
+{
+    "type": "add",
+    "argument1": {
+        "type": "noise",
+        "noise": "minecraft:continentalness",
+        "y_scale": 0,
+        "xz_scale": 1
+    },
+    "argument2": 0
+}

@@ -1,11 +1,5 @@
 {
     "type": "minecraft:add",
-    "argument1": "teyvat:source/landmass",
-    "argument2": {
-        "type": "minecraft:y_clamped_gradient",
-        "from_y": 72,
-        "to_y": 56,
-        "from_value": -1.001,
-        "to_value": 1.001
-    }
+    "argument1": "teyvat:terrain/test",
+    "argument2": 0
 }
