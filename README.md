@@ -6,7 +6,8 @@
 2. Terrainart bestimmen -> DF für bestimmte Terrainart; weitläufig verblenden
 3. Terrain bauen, aus beliebigen Heightmaps und anderen DF (z.B. Arcs)
 
----
+## Density
+
 ```mermaid
 flowchart BT
     NR((Noise Router))
