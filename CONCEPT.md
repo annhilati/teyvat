@@ -11,9 +11,9 @@
 flowchart BT
     NR((Noise Router))
     nr/fd[noise_router/final_destiny] --> NR
-    t/t[terrain/test] --> nr/fd
-    cts[continent_selector] --> t/t
-    n/ct[noise/continents] --> cts
-    Ncts(continents) --> n/ct
+    t/nat[terrain/natlan] --> nr/fd
+    t/nat/h[terrain/natlan/height] --> t/nat
+    n/nate[noise/natlan_erosion] --> t/nat/h
+    Nnate(natlan_erosion) --> n/nate
 
 ```
