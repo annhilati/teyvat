@@ -4,4 +4,4 @@
 *.yml linguist-detectable=true
 *.nbt linguist-detectable=true
 *.nbt linguist-language=Raw token data
-structures linguist-detectable=false
+structures/* linguist-detectable=false
