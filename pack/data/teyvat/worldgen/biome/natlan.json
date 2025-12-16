@@ -28,7 +28,7 @@
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
-        "minecraft:canyon"
+        "teyvat:natlan_crevice"
     ],
     "spawn_costs": {},
     "spawners": {
