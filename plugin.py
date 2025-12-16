@@ -1,13 +1,15 @@
-from beet import Context, JsonFileBase, JsonFile
-from typing import Any
-from json5 import loads
+from beet import Context
+from beet.contrib.worldgen import WorldgenNoiseSettings, Dimension
+import yaml
 
-def require(ctx: Context):
-    JsonFileBase.decoder = loads
 
-def pipeline(ctx: Context):
-    JsonFileBase.decoder = loads
-    for _, json_file in ctx.data.list_files(extend=JsonFileBase[Any]):
-        print(_)
-        print(json_file.data)
-        json_file.text = json_file.encoder(json_file.data)
+def beet_default(ctx: Context):
+    data = ctx.data
+
+    # Fill surface_rule with external yaml file
+    with open("./pack/data/teyvat/worldgen/noise_settings/surface_rules.yml", "r", encoding="utf-8") as f:
+        data[WorldgenNoiseSettings]["teyvat:teyvat"].data["surface_rule"] = yaml.load(f, Loader=yaml.SafeLoader)
+    
+    # Fill surface_rule with external yaml file
+    with open("./pack/data/teyvat/dimension/biomes.yml", "r", encoding="utf-8") as f:
+        data[Dimension]["teyvat:teyvat"].data["generator"]["biome_source"]["biomes"] = yaml.load(f, Loader=yaml.SafeLoader)

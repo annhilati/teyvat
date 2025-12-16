@@ -2,7 +2,7 @@ data_pack:
   load:
     - pack
 output: .
-# require:
-#   - plugin.require
-# pipeline:
-#   - plugin.pipeline
+require:
+  - beet.contrib.worldgen
+pipeline:
+  - plugin
