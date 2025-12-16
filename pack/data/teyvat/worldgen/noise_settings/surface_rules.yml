@@ -1,5 +1,6 @@
 type: 'minecraft:sequence'
 sequence:
+  # Bedrock Floor
   - type: 'minecraft:condition'
     if_true:
       type: 'minecraft:vertical_gradient'
@@ -12,6 +13,7 @@ sequence:
       type: 'minecraft:block'
       result_state:
         Name: 'minecraft:bedrock'
+  # Deepslate Phase
   - type: 'minecraft:condition'
     if_true:
       type: 'minecraft:vertical_gradient'
@@ -26,6 +28,7 @@ sequence:
         Name: 'minecraft:deepslate'
         Properties:
           axis: 'y'
+  # Natlan Specific
   - type: 'minecraft:condition'
     if_true:
       type: 'minecraft:biome'
@@ -89,6 +92,7 @@ sequence:
               - type: 'minecraft:block'
                 result_state:
                   Name: 'minecraft:terracotta'
+  # Liyue Specific
   - type: 'minecraft:condition'
     if_true:
       type: 'minecraft:biome'
