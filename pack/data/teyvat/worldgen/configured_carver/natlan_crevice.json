@@ -8,7 +8,7 @@
                 "absolute": 90
             },
             "min_inclusive": {
-                "absolute": 70
+                "absolute": 50
             }
         },
         "replaceable": "#teyvat:natlan_carver_replacables",
