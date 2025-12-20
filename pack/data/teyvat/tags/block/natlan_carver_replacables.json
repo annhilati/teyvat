@@ -1,6 +1,10 @@
 {
     "replace": false,
     "values": [
-        "terracotta"
+        "minecraft:terracotta",
+        "minecraft:blue_terracotta",
+        "minecraft:stone",
+        "minecraft:packed_mud",
+        "minecraft:grass_block"
     ]
 }

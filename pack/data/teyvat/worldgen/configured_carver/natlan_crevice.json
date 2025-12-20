@@ -24,7 +24,7 @@
             "horizontal_radius_factor": {
                 "type": "minecraft:uniform",
                 "max_exclusive": 1.0,
-                "min_inclusive": 0.75
+                "min_inclusive": 0.0
             },
             "thickness": {
                 "type": "minecraft:trapezoid",
@@ -33,7 +33,7 @@
                 "plateau": 2.0
             },
             "vertical_radius_center_factor": 0.0,
-            "vertical_radius_default_factor": 1.0,
+            "vertical_radius_default_factor": 0.5,
             "width_smoothness": 3
         },
         "vertical_rotation": {
