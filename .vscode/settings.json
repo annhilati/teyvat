@@ -13,5 +13,7 @@
         ".vscode",
         ".beet_cache",
         "__pycache__"
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
