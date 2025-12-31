@@ -1,5 +1,7 @@
 from rhombus.language import *
 
+c = ConfiguredDensity("teyvat:constant/test", 5.0)
+
 continent_noise = Noise(-10, [2, 1, 2, 2, 2, 1, 1, 1, 1])
 
 
@@ -20,4 +22,6 @@ natlan_height_map = spline(natlan_erosion, [
         ( 1,     0.8,   0)
 ])
 
-terrain_natlan = natlan_height_map + y_clamped_gradient(from_y=64, to_y=256, from_value=-1.001, to_value=1.001)
+terrain_natlan = natlan_height_map + y_clamped_gradient(from_y=64, to_y=256, from_value=1.001, to_value=-1.001)
+
+out = terrain_natlan
