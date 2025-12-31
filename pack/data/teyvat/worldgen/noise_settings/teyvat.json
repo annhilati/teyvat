@@ -21,8 +21,8 @@
         "size_vertical": 4
     },
     "noise_router": {
-        "final_density": "teyvat:noise_router/final_destiny",
-        "continents": "teyvat:noise_router/continents",
+        "final_density": "teyvat:natlan_terrain",
+        "continents": 0,
         "temperature": {
             "type": "minecraft:shifted_noise",
             "noise": "minecraft:temperature",
