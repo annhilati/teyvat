@@ -1,4 +1,4 @@
-from rhombus.language import *
+from rhombus import *
 
 c = ConfiguredDensity("teyvat:constant/test", 5.0)
 
