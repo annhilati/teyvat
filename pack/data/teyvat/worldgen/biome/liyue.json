@@ -3,15 +3,15 @@
     "temperature": 0.9,
     "downfall": 0.5,
     "effects": {
-        "sky_color": 6996214,
-        "fog_color": 6733035,
         "water_color": 5357002,
-        "water_fog_color": 8439542,
         "grass_color": 14472268,
         "foliage_color": 15971383,
-        "dry_foliage_color": 12370251,
-        "music": [],
-        "music_volume": 1.0
+        "dry_foliage_color": 12370251
+    },
+    "attributes": {
+        "visual/sky_color": "#6AC0F6",
+        "visual/fog_color": "#66BCEB",
+        "visual/water_fog_color": "#80C6F6"
     },
     "features": [
         [

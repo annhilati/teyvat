@@ -15,4 +15,4 @@ def beet_default(ctx: Context):
     with open("./pack/data/teyvat/dimension/biomes.yml", "r", encoding="utf-8") as f:
         data[Dimension]["teyvat:teyvat"].data["generator"]["biome_source"]["biomes"] = yaml.load(f, Loader=yaml.SafeLoader)
 
-    rhombus.compile(ctx, out, "teyvat:natlan_terrain")
+    rhombus.inject(ctx, out, "teyvat:natlan_terrain")
