@@ -2,7 +2,6 @@ from beet import Context
 from beet.contrib.worldgen import WorldgenNoiseSettings, Dimension
 import yaml
 import rhombus
-from terrain import out
 
 def beet_default(ctx: Context):
     data = ctx.data
@@ -15,4 +14,7 @@ def beet_default(ctx: Context):
     with open("./pack/data/teyvat/dimension/biomes.yml", "r", encoding="utf-8") as f:
         data[Dimension]["teyvat:teyvat"].data["generator"]["biome_source"]["biomes"] = yaml.load(f, Loader=yaml.SafeLoader)
 
-    rhombus.inject(ctx, out, "teyvat:natlan_terrain")
+    from terrain.natlan import OUT as natlan_terrain
+    from terrain.continents import OUT as continent_terrain
+    rhombus.inject(ctx, natlan_terrain, "teyvat:natlan_terrain")
+    rhombus.inject(ctx, rhombus.math.sgn(continent_terrain), "teyvat:continents")

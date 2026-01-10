@@ -7,12 +7,14 @@
         "**/Thumbs.db": true,
         ".vscode": true,
         ".beet_cache": true,
-        "__pycache__": true
+        "__pycache__": true,
+        "terrain/__pycache__": true
     },
     "hide-files.files": [
         ".vscode",
         ".beet_cache",
-        "__pycache__"
+        "__pycache__",
+        "terrain/__pycache__"
     ],
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": []

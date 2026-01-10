@@ -24,4 +24,4 @@ natlan_height_map = spline(natlan_erosion, [
 
 terrain_natlan = natlan_height_map + y_clamped_gradient(from_y=64, to_y=256, from_value=1.001, to_value=-1.001)
 
-out = terrain_natlan
+OUT = terrain_natlan
