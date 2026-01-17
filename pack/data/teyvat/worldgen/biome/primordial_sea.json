@@ -1,0 +1,19 @@
+{
+    "has_precipitation": false,
+    "temperature": 1.0,
+    "downfall": 1.0,
+    "effects": {
+        "water_color": 5722570
+    },
+    "attributes": {
+        
+    },
+    "features": [
+        [
+            
+        ]
+    ],
+    "carvers": [],
+    "spawn_costs": {},
+    "spawners": {}
+}
