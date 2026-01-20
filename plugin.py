@@ -16,5 +16,9 @@ def beet_default(ctx: Context):
 
     from terrain.natlan import OUT as natlan_terrain
     from terrain.continents import OUT as continent_terrain
+    from terrain.plane_of_euthymia import FINAL_DESTINY as plane_of_euthymia_terrain
+    from terrain.primordial_sea import FINAL_DESTINY as primordial_sea_terrain
     rhombus.inject(ctx, natlan_terrain, "teyvat:natlan_terrain")
     rhombus.inject(ctx, rhombus.math.sgn(continent_terrain), "teyvat:continents")
+    rhombus.inject(ctx, plane_of_euthymia_terrain, "teyvat:plane_of_euthymia_final_destiny")
+    rhombus.inject(ctx, primordial_sea_terrain, "teyvat:primordial_sea_final_destiny")
