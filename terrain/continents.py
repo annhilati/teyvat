@@ -1,4 +1,4 @@
-from rhombus import *
+from Rhombus import *
 
 continents_rarity_noise = Noise(-10, [1.9, 1.0])
 continents_noise = Noise(-9, [1.0])

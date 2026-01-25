@@ -1,6 +1,4 @@
-from rhombus import *
-
-c = ConfiguredDensity("teyvat:constant/test", 5.0)
+from Rhombus import *
 
 continent_noise = Noise(-10, [2, 1, 2, 2, 2, 1, 1, 1, 1])
 

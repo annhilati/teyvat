@@ -1,4 +1,4 @@
-from rhombus import *
+from Rhombus import *
 
 n = Noise(-5, amplitudes=[1.0])
 
