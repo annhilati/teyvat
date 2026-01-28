@@ -15,9 +15,11 @@ def beet_default(ctx: Context):
         data[Dimension]["teyvat:teyvat"].data["generator"]["biome_source"]["biomes"] = yaml.load(f, Loader=yaml.SafeLoader)
 
     from terrain.natlan import OUT as natlan_terrain
-    from terrain.continents import OUT as continent_terrain
     from terrain.plane_of_euthymia import FINAL_DESTINY as plane_of_euthymia_terrain
     from terrain.primordial_sea import FINAL_DESTINY as primordial_sea_terrain
     natlan_terrain.inject(ctx, "teyvat:natlan_terrain")
     plane_of_euthymia_terrain.inject(ctx, "teyvat:plane_of_euthymia_final_destiny")
     primordial_sea_terrain.inject(ctx, "teyvat:primordial_sea_final_destiny")
+    Rhombus.coords.x().inject(ctx, "test")
+
+    print(Rhombus.Density.from_datapack(ctx, "test"))
