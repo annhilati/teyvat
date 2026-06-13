@@ -1,4 +1,4 @@
-from Rhombus import *
+from rhombus import *
 
 continent_noise = Noise(-10, [2, 1, 2, 2, 2, 1, 1, 1, 1])
 
