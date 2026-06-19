@@ -7,7 +7,7 @@ natlan_erosion_noise = Noise(-9, [3.5, 0, 2, 4, 2, 2, 3])
 
 natlan_erosion = clamp(noise(natlan_erosion_noise, 1.3, 0) - 0.1, min=-1, max=1)
 
-natlan_height_map = spline(natlan_erosion, [
+natlan_height_map = Density.configured("teyvat:natlan_heightmap", spline(natlan_erosion, [
         (-1,    -1,     0),
         (-0.6,  -0.95,  0),
         (-0.61, -0.6,   0),
@@ -18,8 +18,6 @@ natlan_height_map = spline(natlan_erosion, [
         ( 0.6,   0.3,   0),
         ( 0.61,  0.8,   0),
         ( 1,     0.8,   0)
-])
+]))
 
-terrain_natlan = natlan_height_map + y_clamped_gradient(from_y=64, to_y=256, from_value=1.001, to_value=-1.001)
-
-OUT = terrain_natlan
+FINAL_DESTINY = maps.extrude_heightmap(natlan_height_map, (-1, 1), (64, 256))
