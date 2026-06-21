@@ -26,4 +26,4 @@ if __name__ == "__main__":
     import pathlib
     from rhombus.preview.service import start_service
     
-    start_service(pathlib.Path.cwd(), [("teyvat:natlan_terrain", natlan_terrain)])
+    start_service(pathlib.Path.cwd(), ("teyvat:natlan_terrain", natlan_terrain))
