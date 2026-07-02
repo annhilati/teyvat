@@ -18,12 +18,10 @@ def beet_default(ctx: Context):
     with open("./pack/data/teyvat/dimension/biomes.yml", "r", encoding="utf-8") as f:
         data[Dimension]["teyvat:teyvat"].data["generator"]["biome_source"]["biomes"] = yaml.load(f, Loader=yaml.SafeLoader)
 
-    natlan_terrain.inject(ctx.data, "teyvat:natlan_terrain")
-    plane_of_euthymia_terrain.inject(ctx.data, "teyvat:plane_of_euthymia_final_destiny")
-    primordial_sea_terrain.inject(ctx.data, "teyvat:primordial_sea_final_destiny")
+    natlan_terrain.implement(ctx.data, "teyvat:natlan_terrain")
+    plane_of_euthymia_terrain.implement(ctx.data, "teyvat:plane_of_euthymia_final_destiny")
+    primordial_sea_terrain.implement(ctx.data, "teyvat:primordial_sea_final_destiny")
 
 if __name__ == "__main__":
-    import pathlib
-    from rhombus.preview.service import start_service
     
-    start_service(pathlib.Path.cwd(), ("teyvat:natlan_terrain", natlan_terrain))
+    rhombus.preview.serve(("teyvat:natlan_terrain", natlan_terrain))

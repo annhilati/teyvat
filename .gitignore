@@ -1,3 +1,7 @@
 /.beet_cache
 /*data_pack
 __pycache__
+.env
+
+*.log*
+Teyvat
