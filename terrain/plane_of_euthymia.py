@@ -1,9 +1,12 @@
 from rhombus import *
+when = conditional.when
 
 n = Noise(-5, amplitudes=[1.0])
 
-hills = noise(n, xz_scale=1, y_scale=0) + y_clamped_gradient(from_value=1.2, to_value=-1.2, from_y=5, to_y=24)
+hills_heightmap = noise(n, y_scale=0)
 
-radius = lambda: emath.sqrt(coords.x()**2 + coords.z()**2)
+radius = lambda: emath.sqrt(coords.x()**2 + coords.z()**2, iterations=1)
 
-FINAL_DESTINY = range_choice(input=coords.x(), min_inclusive=0, max_exclusive=15, when_in_range=1, when_out_of_range=hills)
+heightmap = when(radius()).atmost(200).then(-0.2).otherwise(hills_heightmap)
+
+FINAL_DESTINY = maps.extrude_heightmap(heightmap, (-1.2, 1.2), (5, 24))
